@@ -1,0 +1,162 @@
+/* skill_level_pie_chart */
+.skill_level_group {
+	width: 100%;
+	height: 560px;
+  margin: 0 auto;
+	margin-top: 200px;
+	padding-top: 0 auto;
+}
+.skill_level_p{
+  font-size: 25px;
+  font-family: cursive;
+}
+.skill_level_title {
+	color: rgb(90, 142, 202);
+	font-size: 17px;
+	font-family: cursive;
+	margin-bottom: -55px;
+}
+.skill_row {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+  font-family: cursive;
+/*  padding-left: 70px;*/
+}
+.skill_level {
+  margin-top: 170px;
+  padding-bottom: 20px;
+  zoom: 0.8;
+}
+.skill_range {
+	white-space: nowrap;
+}
+.pie_percent_group {
+  margin-top: -140px;
+  margin-bottom: -100px;
+  margin-left: -300px;
+}
+.pie::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	border: 3px solid rgb(212, 206, 206);
+  opacity: 0.5;
+	border-radius: 50%;
+	z-index: -2;
+}
+
+.pie_python::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#5cffff 0% 30%, transparent 30% 100%);
+	border-radius: 50%;
+	z-index: -1;
+}
+
+.pie_js::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#8052d5 0% 25%, transparent 25% 100%);
+	border-radius: 50%;
+	z-index: -1;
+}
+
+.pie_django::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#5ee064 0% 40%, transparent 30% 100%);
+	border-radius: 50%;
+	z-index: -1;
+}
+.pie_flask::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#52d5bf 0% 40%, transparent 40% 100%);
+	border-radius: 50%;
+	z-index: -1;
+}
+.pie_postgresql::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#21bdec 0% 35%, transparent 35% 100%);
+	border-radius: 50%;
+	z-index: -1;
+}
+.pie_react::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#21bdec 0% 30%, transparent 30% 100%);
+	border-radius: 50%;
+	z-index: -1;
+}
+.pie_html::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#ffbc7d 0% 50%, transparent 50% 100%);
+	border-radius: 50%;
+	z-index: -1;
+}
+.pie_css::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#e7eb2c 0% 50%, transparent 50% 100%);
+	border-radius: 50%;
+	z-index: -1;
+}
+.pie_chakra_ui::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#5efabe 0% 30%, transparent 30% 100%);
+	border-radius: 50%;
+	z-index: -1;
+}

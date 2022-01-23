@@ -6,7 +6,6 @@
   height: 40vmin;
   pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +34,192 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* base */
+.header_nav {
+	width: 1000px;
+}
+/* bg_image */
+.bg_image {
+	margin-top: 10px;
+  position: relative;
+}
+.bg_image_img {
+	width: 100vw;
+  position: relative;
+	/*filter:brightness(120%);*/
+}
+.bg_image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+	opacity: 0.8;
+  /*background-color: rgba(0, 0, 0, 0.2);*/
+}
+.bg_text_top {
+  font-family: cursive;
+  position: absolute;
+  font-size: 30px;
+  margin: 0;
+  top: 10%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  opacity: 0.85;
+  text-shadow:
+    2px  2px 1px #003366,
+    -2px  2px 1px #003366,
+    2px -2px 1px #003366,
+    -2px -2px 1px #003366,
+    2px  0px 1px #003366,
+    0px  2px 1px #003366,
+    -2px  0px 1px #003366,
+    0px -2px 1px #003366;
+}
+
+/* about */
+.prof {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+.prof_box {
+	background-color: #ffffff;
+}
+.profile_card {
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  border: none;
+}
+.profile_image {
+  display: flex;
+}
+.profile_image img{
+  margin: 0 auto;
+}
+.about {
+  max-width: 768px;
+  border: none;
+  display: inline-block;
+}
+.profile_list {
+  text-align: left;
+}
+.navbar-nav {
+  flex-direction: row !important;
+  font-family: cursive;
+}
+.profile_list_title {
+  font-size: 25px;
+  font-family: cursive;
+}
+
+/* header */
+.logoheader img {
+  border-radius: 40px;
+}
+
+.nav-color {
+  color: black;
+}
+
+.nav-color:hover {
+  color: #2987df;
+}
+
+.nav-color:after {
+  content: "";
+  display: block;
+  height: 10px;
+  background: #aeffbf;
+  border-radius: 20px;
+  width: 65px;
+  margin-top: -3px;
+  opacity: 0;
+  transform: translateX(10px);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-color:hover:after {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* contact_me */
+.contact-box {
+	width: 100%;
+  margin-top: 90px;
+  border: none;
+}
+.contact_group {
+  height: 100%;
+}
+.contact-card-modal {
+  margin-top: 50px;
+  border: none;
+}
+.contact_me {
+  font-size: 25px;
+  font-family: cursive;
+	margin-top: -30px;
+	padding-bottom: 15px;
+}
+.contact_dialog_open {
+	text-align: right;
+	width: 1000px;
+}
+/* work_list */
+.work_list_title {
+  font-family: cursive;
+  font-size: 25px;
+}
+/**/
+.bg-imgs {
+  background: url(https://dubdesign.net/wp-content/uploads/2021/01/graybg.png) 0 0 repeat;
+  margin-top: 40px;
+  padding: 20px 20px 0;
+}
+
+.bg-imgs img {
+transform:translateY(-20px);
+color: #313131;
+font-weight: 600;
+}
+
+/* Footer */
+footer {
+  font-family: cursive;
+}
+
+/* modal */
+#overlay{
+	/*画面全体を覆う*/
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background-color:rgba(0,0,0,0.5);
+	
+		/*画面の中央に要素を表示*/
+		display: flex;
+		align-items: center;
+		justify-content: center;
+}
+#content{
+  z-index:2;
+  width:50%;
+  padding: 1em;
+  background:#fff;
 }
