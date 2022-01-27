@@ -10,7 +10,7 @@ function Detail_description_2() {
             size='xs' bgColor='blue.200' borderColor='blue.200' height='40px' width='140px' borderRadius='40px' _hover={{bg: 'blue.300', borderColor:'blue.300'}} color='gray'>トップページに戻る</Button>
         </Link>
         <br /><br /><br />
-        <Text>Detail_description_2</Text>
+        <Text>TODOアプリ</Text>
         <Text>以下のリンクから遷移できます</Text>
         <Link href='https://todo-prj.herokuapp.com/' target='_blank'>
           <Button  bgColor='white'
