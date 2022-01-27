@@ -12,7 +12,7 @@ function Detail_description_1() {
         <br /><br /><br />
         <Text>Detail_description_1</Text>
         <Text>以下のリンクから遷移できます</Text>
-        <Link to='/'>
+        <Link href='https://postphotoes-project.herokuapp.com/' target="_blank">
           <Button  bgColor='white'
             size='xs' bgColor='orange.200' borderColor='orange.200' height='40px' width='140px' borderRadius='40px' _hover={{bg: 'orange.300', borderColor:'orange.300',}} color='gray'>ポートフォリオをみる</Button>
         </Link>

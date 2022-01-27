@@ -1,7 +1,6 @@
 import React from 'react'
 import { Box, Flex, Heading, Text, Stack, Avatar, Image, SimpleGrid, Button } from "@chakra-ui/react";
 import { Link } from 'react-router-dom';
-import Detail_description_1 from '../detail_descriptions/Detail_description_1';
 
 function Work_detail_1() {
     return (
@@ -9,7 +8,7 @@ function Work_detail_1() {
       <Box bg="white" boxShadow="xl" rounded="xl" p="6" overflow="hidden" className="work_box">
         <Box h="250px" mt="-6" mx="-6" pos="relative">
           <Image
-            fallbackSrc="../work_images/space_garbage.jpg"
+            fallbackSrc={`${process.env.PUBLIC_URL}/images/bg_image_1.jpg`}
             layout="fill"
             className='work_image'
           />

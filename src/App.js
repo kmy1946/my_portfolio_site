@@ -11,6 +11,9 @@ import Skill_level from './coomponents/about/Skill_level'
 import NavBar from './coomponents/base/header/NavBar'
 import Contact from './coomponents/contact/Contact';
 import Swiper_Work from './coomponents/works/Swiper_Work'
+import Detail_description_1 from './coomponents/works/detail_descriptions/Detail_description_1';
+import Detail_description_2 from './coomponents/works/detail_descriptions/Detail_description_2';
+import Page404 from './coomponents/base/Page404'
 {/*
 import Footer from './base/Footer';
 import Page404 from './base/Page404';
@@ -33,21 +36,18 @@ function App() {
             <Profile/>
             <Text className='bg_text_top'>A little bit about me!!</Text>
           </div>
-          
           <Skill_level />
-          
           <Swiper_Work />
           <Contact />
-          {/*
-          <Route exact path="/Detail_description_1">
-            <Detail_description_1 />
-          </Route>
-          <Route exact path="/Detail_description_2">
-            <Detail_description_2 />
-          </Route>
-          <Route>
-            <Page404 />
-          */}
+        </Route>
+        <Route exact path="/Detail_description_1">
+          <Detail_description_1 />
+        </Route>
+        <Route exact path="/Detail_description_2">
+          <Detail_description_2 />
+        </Route>
+        <Route>
+          <Page404 />
         </Route>
         {/*
       <Footer />

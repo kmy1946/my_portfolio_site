@@ -22,7 +22,7 @@ function Work_detail_2() {
           <Text className='work_remarks' width={120} padding={1.5} >
             非同期処理
           </Text>
-          <Link to='/Detail_description_1' className='stretched-link'>
+          <Link to='/Detail_description_2' className='stretched-link'>
           <Button className='work_detail_button' bgColor='white' position='absolute' right={7}
             size='xs' bgColor='blue.200' borderColor='blue.200' height='40px' width='40px' borderRadius='40px' _hover={{bg: 'blue.300', borderColor:'blue.300'}} color='gray'
             >
