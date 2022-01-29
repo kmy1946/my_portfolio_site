@@ -1,14 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-
 import { Container, Text } from '@chakra-ui/react';
-import {
-  Switch,
-  Route
-} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Profile from './coomponents/about/Profile'
 import Skill_level from './coomponents/about/Skill_level'
 import NavBar from './coomponents/base/header/NavBar'
+import Footer from './coomponents/base/Footer'
 import Contact from './coomponents/contact/Contact';
 import Swiper_Work from './coomponents/works/Swiper_Work'
 import Detail_description_1 from './coomponents/works/detail_descriptions/Detail_description_1';
@@ -32,13 +29,14 @@ function App() {
         <Route exact path='/'>
           <NavBar />
           <div className='bg_image'>
-          <img className='bg_image_img' src={`${process.env.PUBLIC_URL}/images/bg_image_1.jpg`} />
+          <img className='bg_image_img' src={`${process.env.PUBLIC_URL}/images/Inkedbg_image_1_LI.jpg`} />
             <Profile/>
             <Text className='bg_text_top'>A little bit about me!!</Text>
           </div>
           <Skill_level />
           <Swiper_Work />
           <Contact />
+          <Footer/>
         </Route>
         <Route exact path="/Detail_description_1">
           <Detail_description_1 />

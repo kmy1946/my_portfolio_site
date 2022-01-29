@@ -71,11 +71,11 @@ function Contact() {
           
           <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
           <div className="mb-3">
-            <Input type="text" name="user_name" bgColor="white" borderColor="gray" className="form-control" onChange={(event) => setNameing(event.target.value)}    placeholder="Your Name" id="name" required data-validation-required-message="Please enter your name" required/>
+            <Input type="text" bgColor="white" borderColor="gray" className="form-control" onChange={(event) => setNameing(event.target.value)}    placeholder="Your Name" name="name" id="name" required data-validation-required-message="Please enter your name" required/>
           </div>
           <div className="mb-3">
             <Input bgColor="white" borderColor="gray" type="email" className="form-control" onChange={(event) => setEmail(event.target.value)}
-              placeholder="Your Email Address" name="user_email" id="email" required data-validation-required-message="Please enter your Email Address" required/>
+              placeholder="Your Email Address" name="email" id="email" required data-validation-required-message="Please enter your Email Address" required/>
           </div>
           <div className="mb-3">
             <Textarea type="text" bgColor="white" borderColor="gray" className="form-control" onChange={(event) => setMessage(event.target.value)} placeholder="Message" name="message" id="message" rows="5" required></Textarea>

@@ -8,7 +8,8 @@ function Work_detail_2() {
       <Box bg="white" boxShadow="xl" rounded="xl" p="6" overflow="hidden" className="work_box">
         <Box h="250px" mt="-6" mx="-6" pos="relative">
           <Image
-            fallbackSrc="../work_images/map_ja.jpg"
+          fallbackSrc={`${process.env.PUBLIC_URL}/images/todo_by_django_react.png`}
+            
             layout="fill"
             className='work_image'
           />
@@ -17,7 +18,7 @@ function Work_detail_2() {
           <Text
             className='work_skills'
           >
-            Django, ReactJS, HTML, CSS, Chakra UI
+            Django, ReactJS, JSX, CSS, Material UI
           </Text>
           <Text className='work_remarks' width={120} padding={1.5} >
             非同期処理

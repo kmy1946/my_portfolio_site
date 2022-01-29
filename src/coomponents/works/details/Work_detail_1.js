@@ -15,7 +15,7 @@ function Work_detail_1() {
         </Box>
         <Stack>
           <Text className='work_skills' >
-            Django, Javascript, HTML, CSS, Google map API
+            Django, HTML, CSS, Javascript, Google map API
           </Text>
           <Link to='/Detail_description_1' className='stretched-link'>
           <Button className='work_detail_button' bgColor='white' position='absolute' right={7}
@@ -25,10 +25,10 @@ function Work_detail_1() {
           </Button>
           </Link>
           <Heading color="gray.700" fontSize="lg" fontFamily="body" >
-            Photo_Post
+            写真投稿機能
           </Heading>
           <Text color="gray.500" height='80px' fontSize="sm" paddingTop={5}>
-            写真を投稿できます。一番最初に作ったWebアプリです。
+            Djangoの初学時に作りました。
           </Text>
           <Text color="gray.500" fontSize='xs'>Oct 8, 2021</Text>
         </Stack>

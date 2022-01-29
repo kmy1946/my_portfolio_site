@@ -17,7 +17,7 @@ function Work_detail_4() {
           <Text
             className='work_skills'
           >
-            Django, Javascript, HTML, CSS, Google map API
+            Flask, React.js, JSX, CSS
           </Text>
           <Link to='/Detail_description_1' className='stretched-link'>
           <Button className='work_detail_button' bgColor='white' position='absolute' right={7}
@@ -27,10 +27,10 @@ function Work_detail_4() {
           </Button>
           </Link>
           <Heading color="gray.700" fontSize="lg" fontFamily="body">
-            Photo_Post
+            ToDoApp
           </Heading>
           <Text color="gray.500" height='80px' fontSize="sm">
-            Under Construction!!<br/>・・・
+            バックエンドをFlask、フロントエンドをReact.jsで作成しました。
           </Text>
           <Text color="gray.500" fontSize='xs'>Dec 10, 2021</Text>
         </Stack>

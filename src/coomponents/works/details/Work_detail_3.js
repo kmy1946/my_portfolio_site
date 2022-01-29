@@ -17,7 +17,7 @@ function Work_detail_3() {
           <Text
             className='work_skills'
           >
-            Django, React.js, Chakra UI, HTML, CSS
+            Django, React.js, Chakra UI, JSX、 CSS
           </Text>
           <Text className='work_remarks' width={120} padding={1.5} >
             非同期処理
