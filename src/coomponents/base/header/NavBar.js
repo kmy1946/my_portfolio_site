@@ -1,7 +1,6 @@
 import React from "react";
-import { Link, Box, Flex, Text, Button, Stack } from "@chakra-ui/react";
+import { Box, Flex, Stack } from "@chakra-ui/react";
 import {Link as Scroll} from "react-scroll";
-import Logo from "./Logo";
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -37,7 +36,7 @@ const MenuIcon = () => (
 
 const MenuToggle = ({ toggle, isOpen }) => {
   return (
-    <Box display={{ base: "block", md: "none" }} onClick={toggle}>
+    <Box display={{ base: "block", md: "none" }} onClick={toggle}> 
       {isOpen ? <CloseIcon /> : <MenuIcon />}
     </Box>
   );

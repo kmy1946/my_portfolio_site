@@ -8,7 +8,6 @@ import {
   Link,
 } from '@chakra-ui/react';
 import React from 'react';
-import { useEffect, useState } from 'react';
 import { useModal } from 'react-hooks-use-modal';
 import Contact from '../contact/Contact'
 
@@ -21,10 +20,7 @@ function Prof() {
             <Box className='prof_box' maxW={'470px'} w={'full'} boxShadow={'2xl'} rounded={'lg'} p={10} textColor='black'>
               <Avatar borderRadius='100px' src={`${process.env.PUBLIC_URL}/images/icon_cat.png`} size={'xl'} alt={'Avatar Alt'} />
               <Text fontWeight={600} color={'gray.600'} mb={4}>
-                神谷洋介
-              </Text>
-              <Text textAlign={'center'} px={3}>
-                  ２２歳
+                神谷 洋介
               </Text>
               <Text textAlign={'center'} px={3}>
                   学校：信州大学理学部
@@ -32,12 +28,12 @@ function Prof() {
               <Text textAlign={'center'} px={3}>
                   趣味：読書、お笑い鑑賞
               </Text>
+              <br/>
               <Text textAlign={'center'} px={3}>
-                  Python(Django, Flask)、Javascript(React.js)、HTML、CSS
+                  Python(Django, Flask)、Javascript(React.js)
               </Text>
               <Text textAlign={'center'} px={3}>
-
-                  休学中の大学生です。プログラミングの勉強をしています。
+                  休学中の大学生です。<br/><br/>　Webサービスを作れるようになりたいと思い、プログラミングの勉強をしています。
               </Text>
               <Stack mt={8} direction={'row'} spacing={4}>
                 <div>
@@ -48,7 +44,7 @@ function Prof() {
                       <i className="fa fa-pencil-alt fa-1x text-white rounded icon" aria-hidden="true"> Contact in dialog</i>
                   </Button>
                   <Modal>
-                    <Button size='xs' bgColor='orange.300' borderColor='orange.300' _hover={{bg: 'orange.400', borderColor:'orange.300'}} onClick={close}>
+                    <Button width='680px' top='90px' size='xs' bgColor='orange.300' borderColor='orange.300' _hover={{bg: 'orange.400', borderColor:'orange.300'}} onClick={close}>
                         Close
                     </Button>
                     <Contact />

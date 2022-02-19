@@ -3,7 +3,7 @@ import { Container, Center } from "@chakra-ui/react";
 
 function Skill_level_db() {
   return (
-    <Container marginTop='-200px'>
+    <Container marginTop='-50px' opacity={0}>
       <Center className="skill_level_title">Database</Center>
       <Center className="row skill_row">
         <div className="skill_level col-2 col-md-3">

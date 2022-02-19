@@ -20,7 +20,7 @@ function Detail_description_1() {
         <hr/>
         <br/>
         <Text>学んだ内容↓</Text>
-        <Text>シリアライザー、countメソッド、体裁の整え方等</Text>
+        <Text>シリアライザー、countメソッド、DjangoのTemplates機能等</Text>
         <br/>
         <hr/>
         <br/>

@@ -57,6 +57,38 @@ function Skill_level_backend() {
             </div>          
           </div>
         </div>
+        <div className="skill_level col-3 col-md-4">
+          <h5 className="mb-0">
+            Node.js
+            <span className="small text-secondary skill_range">
+              - 初級
+            </span>
+          </h5>
+          <div className="pie_percent_group d-flex flex-row">
+            <div className="pie">
+              <span></span>
+            </div>       
+            <div className="pie_node">
+              <span></span>
+            </div>          
+          </div>
+        </div>
+        <div className="skill_level col-3 col-md-4">
+          <h5 className="mb-0">
+            Firebase
+            <span className="small text-secondary skill_range">
+              - 初級
+            </span>
+          </h5>
+          <div className="pie_percent_group d-flex flex-row">
+            <div className="pie">
+              <span></span>
+            </div>       
+            <div className="pie_firebase">
+              <span></span>
+            </div>          
+          </div>
+        </div>
       </Center>
     </Container>
   );

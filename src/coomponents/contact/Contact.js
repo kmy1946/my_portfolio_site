@@ -1,19 +1,8 @@
 import React, { useRef, useState } from "react";
-import { Container, Box } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import {Textarea, Button, Input} from "@chakra-ui/react";
-import ReactModal from 'react-modal';
-import { useModal } from 'react-hooks-use-modal';
 import emailjs from '@emailjs/browser';
-import {init,sendForm,send} from 'emailjs-com';
 import Contact_Modal from "./Contact_Modal";
-
-//import dotenv from 'dotenv'
-//dotenv.config()
-
-//import dotenv from 'dotenv';
-//dotenv.config({ path: path.join(__dirname, '.env') });
-
-//require('dotenv').config()
 
 function Contact() {
   const [nameing, setNameing] = useState();
@@ -43,7 +32,7 @@ function Contact() {
               お名前: ${nameing} \n
               メールアドレス: ${email} \n 
               お問い合わせ内容: ${message} \n
-            `);
+        `);
         
   const service_id = process.env.REACT_APP_SERVICE_ID
   const template_id = process.env.REACT_APP_TEMPLATE_ID
@@ -63,7 +52,6 @@ function Contact() {
     <Box w={'full'} boxShadow={'2xl'} rounded={'lg'} p={6} textAlign={'center'} className="card contact-box text-center mx-auto rounded" id="contact">
 
       <div className="card-body contact_group">
-        <Contact_Modal />
         <p className="contact_me">
           Get in Touch with Me!
         </p>

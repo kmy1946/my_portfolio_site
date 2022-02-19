@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Flex, Heading, Text, Stack, Avatar, Image, SimpleGrid, Container, Button } from "@chakra-ui/react";
+import { Text, Container, Button } from "@chakra-ui/react";
 import { Link } from 'react-router-dom';
 
 function Detail_description_2() {

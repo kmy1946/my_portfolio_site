@@ -10,6 +10,7 @@ import Work_detail_1 from './details/Work_detail_1';
 import Work_detail_2 from './details/Work_detail_2';
 import Work_detail_3 from './details/Work_detail_3';
 import Work_detail_4 from './details/Work_detail_4';
+import Work_detail_7 from './details/Work_detail_7';
 
 function Swiper_Work() {
   SwiperCore.use([Pagination,Navigation]);
@@ -18,19 +19,25 @@ function Swiper_Work() {
   return(
     <Box className='swiper_works_box' boxShadow={'2xl'} rounded={'lg'} id="works">
       <Text className="swiper_works_title">Works</Text>
+      <Text className="swiper_works_text">　　※ 随時更新</Text>
       <Swiper slidesPerView={3} spaceBetween={30} slidesPerGroup={1} loop={true}
         loopFillGroupWithBlank={true} pagination={{"clickable": true }} navigation={true} className="mySwiper">
-          <SwiperSlide>
-            <Work_detail_1/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Work_detail_2/>
-          </SwiperSlide>
           <SwiperSlide>
             <Work_detail_3/>
           </SwiperSlide>
           <SwiperSlide>
+            <Work_detail_7/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Work_detail_2/>
+          </SwiperSlide>
+          {/*
+          <SwiperSlide>
             <Work_detail_4/>
+          </SwiperSlide>
+          */}
+          <SwiperSlide>
+            <Work_detail_1/>
           </SwiperSlide>
       </Swiper>
     </Box>

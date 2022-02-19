@@ -53,6 +53,11 @@
   margin-bottom: -70px;
   font-family: cursive;
 }
+.swiper_works_text {
+  font-size: 18px;
+  margin-top: 70px;
+  margin-bottom: -70px;
+}
 .work_image {
   object-fit: cover;
 }
@@ -77,6 +82,74 @@
     -2px  0px 1px #003366,
     0px -2px 1px #003366;
 }
+.work_under_construction {
+  position: absolute;
+  bottom: 60%;
+  left: 45%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  color: rgb(0, 0, 0);
+  opacity: 0.85;
+  margin-top: 95px;
+  margin-left: -20px;
+  text-shadow:
+    2px  2px 1px #dbbe92,
+    -2px  2px 1px #dbbe92,
+    2px -2px 1px #dbbe92,
+    -2px -2px 1px #dbbe92,
+    2px  0px 1px #dbbe92,
+    0px  2px 1px #dbbe92,
+    -2px  0px 1px #dbbe92,
+    0px -2px 1px #dbbe92;
+}
+.work_auth {
+  position: absolute;
+  background-color: rgb(230, 199, 134);
+  border-radius: 2px;
+  bottom: 50%;
+  left: 45%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  color: white;
+  opacity: 0.85;
+  margin-top: 95px;
+  margin-left: -20px;
+  text-shadow:
+    2px  2px 1px #8a5e1b,
+    -2px  2px 1px #8a5e1b,
+    2px -2px 1px #8a5e1b,
+    -2px -2px 1px #8a5e1b,
+    2px  0px 1px #8a5e1b,
+    0px  2px 1px #8a5e1b,
+    -2px  0px 1px #8a5e1b,
+    0px -2px 1px #8a5e1b;
+  border-radius: 25px;
+}
+.work_importance {
+  position: absolute;
+  background-color: rgb(147, 168, 192);
+  border-radius: 2px;
+  bottom: 14%;
+  left: 29%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  color: white;
+  opacity: 0.85;
+  margin-top: 95px;
+  margin-left: -20px;
+  text-shadow:
+    2px  2px 1px #1b1d8a,
+    -2px  2px 1px #1b1d8a,
+    2px -2px 1px #1b1d8a,
+    -2px -2px 1px #1b1d8a,
+    2px  0px 1px #1b1d8a,
+    0px  2px 1px #1b1d8a,
+    -2px  0px 1px #1b1d8a,
+    0px -2px 1px #1b1d8a;
+}
 .work_remarks {
   position: absolute;
   background-color: rgb(139, 134, 134);
@@ -99,4 +172,8 @@
     0px  2px 1px #8a1b8a,
     -2px  0px 1px #8a1b8a,
     0px -2px 1px #8a1b8a;
+}
+.workdetai_matome_site__title {
+  text-align: left;
+  font-weight: bold;
 }

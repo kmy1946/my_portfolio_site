@@ -100,6 +100,30 @@
 	border-radius: 50%;
 	z-index: -1;
 }
+.pie_node {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#52d5bf 0% 40%, transparent 40% 100%);
+	border-radius: 50%;
+	z-index: -1;
+}
+.pie_firebase {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#52d5bf 0% 40%, transparent 40% 100%);
+	border-radius: 50%;
+	z-index: -1;
+}
 .pie_postgresql::after {
 	content: '';
 	position: absolute;
@@ -157,6 +181,30 @@
 	width: 150px;
 	height: 150px;
 	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#5efabe 0% 30%, transparent 30% 100%);
+	border-radius: 50%;
+	z-index: -1;
+}
+.pie_node {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#41a852 0% 30%, transparent 30% 100%);
+	border-radius: 50%;
+	z-index: -1;
+}
+.pie_firebase {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(#ffffff 65%, transparent 66%), conic-gradient(#fad65e 0% 30%, transparent 30% 100%);
 	border-radius: 50%;
 	z-index: -1;
 }

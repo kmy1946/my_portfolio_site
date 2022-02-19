@@ -38,9 +38,13 @@
 
 /* base */
 .header_nav {
-	width: 1000px;
+	width: 100%;
 }
 /* bg_image */
+.bg_image {
+	margin-top: 10px;
+  position: relative;
+}
 .bg_image {
 	margin-top: 10px;
   position: relative;
@@ -48,7 +52,10 @@
 .bg_image_img {
 	width: 100vw;
   position: relative;
-	/*filter:brightness(120%);*/
+  filter:brightness(85%);
+}
+.bg_image_img:hover {
+  filter:brightness(70%);
 }
 .bg_image::before {
   content: '';
@@ -177,7 +184,6 @@
 }
 .contact_dialog_open {
 	text-align: right;
-	width: 1000px;
 }
 /* work_list */
 .work_list_title {

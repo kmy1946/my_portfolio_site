@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Flex, Heading, Text, Stack, Avatar, Image, SimpleGrid, Button } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text, Stack, Image, Button } from "@chakra-ui/react";
 import { Link } from 'react-router-dom';
 
 function Work_detail_4() {
@@ -8,7 +8,7 @@ function Work_detail_4() {
       <Box bg="white" boxShadow="xl" rounded="xl" p="6" overflow="hidden" className='work_box'>
         <Box h="250px" mt="-6" mx="-6" pos="relative">
           <Image
-            fallbackSrc="https://via.placeholder.com/300x200"
+            fallbackSrc={`${process.env.PUBLIC_URL}/images/todo_by_django_react.png`}
             layout="fill"
             className='work_image'
           />

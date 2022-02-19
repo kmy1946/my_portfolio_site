@@ -8,6 +8,7 @@ function Contact_Modal() {
     preventScroll: true,
   });
   return (
+    <div>
     <div className="contact_dialog_open">
         <Button size='xs' bgColor='green.100' borderColor='green.100' height='40px' width='40px' borderRadius='40px' _hover={{bg: 'green.300', borderColor:'green.300'}} onClick={open} color='gray'>
           Dialog
@@ -18,6 +19,7 @@ function Contact_Modal() {
           </Button>
           <Contact />
         </Modal>
+    </div>
   </div>
   )
 }
